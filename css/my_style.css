@@ -1,0 +1,27 @@
+.container {
+    background-color: aqua;
+}
+
+.container-items {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: calc(100% / 3);
+    margin: 0 auto;
+    padding-right: 60px;
+}
+
+.item:first-child {
+    padding-left: 60px;
+}
+
+img {
+    width: 100%;
+    border: 2px solid blue;
+    border-radius: 50%;
+    /* margin: 0 auto; */
+    /* margin-left: auto; */
+}
